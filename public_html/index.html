@@ -81,7 +81,7 @@ and open the template in the editor.
                 if (jsonStr === "") {
                     return;
                 }
-                var putReqStr = createPUTRequest("90935537|-31948800886869840|90931504",
+                var putReqStr = createPUTRequest("90935537|-31948800838245130|90931593",
                         jsonStr, "Student", "Student_Details");
                 alert(putReqStr);
                 jQuery.ajaxSetup({async: false});
@@ -90,6 +90,7 @@ and open the template in the editor.
                 jQuery.ajaxSetup({async: true});
 
                 alert(JSON.stringify(resultObj));
+                alert("Registration Successful");
                 resetForm();
             }
         </script>
